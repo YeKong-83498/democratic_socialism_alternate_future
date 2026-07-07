@@ -502,7 +502,7 @@ Anna Siemsen is now an advisor.
 
 @add_doukakis
 title: Theodoros Doukakis
-subtitle: Anna Siemsen is an and educational reform advocate and pacifist, who was one of the few German women to receive a PhD in the pre-war period. {!<br><br>!}[? if difficulty < 0 : Actions - Rally for Pacifism, Educational Curriculum, Educational Structure ?]
+subtitle: Theodoros Doukakis is a former online marketplace supply chain manager, who went back to grad school during the 2008 Recession and has since become a famous and well-read author and economist. He is one of our foremost advocates for a computerized planned economy.   {!<br><br>!}[? if difficulty < 0 : Actions - Left-Center Unity, International Relations, Addressing the Economic Crisis ?]
 is-card: true
 card-image: img/portraits/tdoukakis.png
 view-if: doukakis_advisor = 0 and n_advisors < 3 and left_split = 0
