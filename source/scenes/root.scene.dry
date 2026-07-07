@@ -6,7 +6,7 @@ go-to: post_event if started = 1; start_menu if started = 0
 new-page: true
 go-to: start_menu_2
 
-= Social Democracy: An Alternate History
+= Democratic Socialism: An Alternate Future
 
 @start_menu_2
 
@@ -628,8 +628,12 @@ go-to: main if difficulty >= 0; main.main_easy if difficulty < 0
 
 = 1928
 
-It is a bright time for German democracy. After a period of struggle, inflation is finally under control, and the economy is expanding steadily. In foreign policy, we have reached agreements with the Western powers and the Soviet Union that might make genuine peace a reality. 
+After over 250 years of shame, struggle, and triumph, the United States of America may be on the last page of its story. 
 
-Now, the task of Social Democracy is to prepare for the next election. The bourgeois-right government of Wilhelm Marx is unpopular, and we stand to gain. Perhaps the next government will have a socialist majority.
+After utter defeat on land and at sea in the Second Pacific War, the People's Republic of China and her allies have forced our government to sign a humiliating armistice. Our military is reeling, our diplomatic weight is nonexistent, and even the mighty Petrodollar, cornerstone of our previous global dominance, is in freefall.
+
+Millions march on the streets, demanding an end to the failed Lovejoy regime. Millions more sit suddenly without employment, bringing our consumer economy down with them. Tens of thousands of radicalized veterans return from overseas, plotting their vengeance on those who betrayed them - both foreign and domestic. 
+
+But with great challenges come great opportunities. We Democratic Socialists have warned about this ever since the beginning of the war, despite overt and covert repression. Now, we enter the 2036 election cycle with decisive momentum. Perhaps the next president will be a socialist!
 
 
