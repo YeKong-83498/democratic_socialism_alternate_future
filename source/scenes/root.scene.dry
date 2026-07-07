@@ -548,6 +548,7 @@ Q.levi_advisor = 0; // Paul Levi
 Q.levi_dead = 0;
 Q.rosenfeld_advisor = 0; // Kurt Rosenfeld
 Q.seydewitz_advisor = 0; // Max Seydewitz
+Q.doukakis_advisor = 0; // Theodoros Doukakis
 
 // centrist alternate advisors
 Q.pfulf_advisor = 0; // Antonie Pfülf
