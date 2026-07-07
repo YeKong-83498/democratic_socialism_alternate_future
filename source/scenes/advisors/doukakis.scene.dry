@@ -23,16 +23,13 @@ on-arrival: advisor_action_timer = 6; left_dissent -= 10; labor_dissent -= 5; ce
 
 We have reduced dissent among the party's factions.
 
-@organizing_women
-title: Organizing women
-subtitle: Sender's strategies are aimed at young working women.
-choose-if: advisor_action_timer = 0
+@doukakis_international
+title: International Party Relations
+subtitle: Doukakis can strengthen our international ties by leveraging his contacts in academia and politics overseas.
 unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?]
-on-arrival: womens_rights += 1; workers_spd += 3*(1-dissent); new_middle_spd += 5*(1-dissent); advisor_action_timer = 6
-
-Sender's message is popular among young women working in the service sector, and we have recruited many white-collar employees.
-
-[? if spd_r < 50 : Unfortunately, women still disproportionately support the bourgeois parties. ?]
+choose-if: advisor_action_timer == 0
+on-arrival: advisor_action_timer = 6; international_relations_timer -= 12; last_advisor_action = 1
+go-to: international_relations
 
 @crisis
 title: Addressing the economic crisis
